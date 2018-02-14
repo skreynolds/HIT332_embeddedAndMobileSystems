@@ -1,0 +1,146 @@
+EESchema Schematic File Version 2
+LIBS:CDU_KiCad_Library
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:practical1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Practical 1"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2N3904 Q?
+U 1 1 59A00A99
+P 4850 4550
+F 0 "Q?" H 5000 4600 50  0000 L BNN
+F 1 "2N3904" H 5000 4500 50  0000 L BNN
+F 2 "" H 4850 4550 50  0001 C CNN
+F 3 "" H 4850 4550 60  0000 C CNN
+	1    4850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 59A00BBF
+P 5950 4550
+F 0 "Q?" H 6100 4600 50  0000 L BNN
+F 1 "2N3904" H 6100 4500 50  0000 L BNN
+F 2 "" H 5950 4550 50  0001 C CNN
+F 3 "" H 5950 4550 60  0000 C CNN
+	1    5950 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RES R?
+U 1 1 59A00F39
+P 4950 3550
+F 0 "R?" H 4910 3630 50  0000 L BNN
+F 1 "1k" H 4880 3400 50  0000 L BNN
+F 2 "" H 4950 3550 50  0001 C CNN
+F 3 "" H 4950 3550 60  0000 C CNN
+	1    4950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 59A00F8A
+P 5850 3550
+F 0 "R?" H 5810 3630 50  0000 L BNN
+F 1 "1k" H 5780 3400 50  0000 L BNN
+F 2 "" H 5850 3550 50  0001 C CNN
+F 3 "" H 5850 3550 60  0000 C CNN
+	1    5850 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 59A00FC3
+P 6250 3550
+F 0 "R?" H 6210 3630 50  0000 L BNN
+F 1 "100k" H 6180 3400 50  0000 L BNN
+F 2 "" H 6250 3550 50  0001 C CNN
+F 3 "" H 6250 3550 60  0000 C CNN
+	1    6250 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 59A01151
+P 4550 3550
+F 0 "R?" H 4510 3630 50  0000 L BNN
+F 1 "100k" H 4480 3400 50  0000 L BNN
+F 2 "" H 4550 3550 50  0001 C CNN
+F 3 "" H 4550 3550 60  0000 C CNN
+	1    4550 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 59A01237
+P 5600 4150
+F 0 "C?" H 5660 4215 50  0000 L BNN
+F 1 "20n" H 5660 4015 50  0000 L BNN
+F 2 "" H 5600 4150 50  0001 C CNN
+F 3 "" H 5600 4150 60  0000 C CNN
+	1    5600 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 59A01478
+P 5200 3800
+F 0 "C?" H 5260 3865 50  0000 L BNN
+F 1 "20n" H 5260 3665 50  0000 L BNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 60  0000 C CNN
+	1    5200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_2 J?
+U 1 1 59A015BC
+P 4000 3900
+F 0 "J?" H 4000 4050 50  0000 C CNN
+F 1 "CONN_2" H 4000 3750 50  0000 C CNN
+F 2 "" H 4000 3900 50  0001 C CNN
+F 3 "" H 4000 3900 50  0000 C CNN
+	1    4000 3900
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

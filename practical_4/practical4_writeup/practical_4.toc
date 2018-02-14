@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Introduction \& Background}{1}
+\contentsline {section}{\numberline {2}Schematic for the Simple Hardware Counter}{2}
+\contentsline {section}{\numberline {3}Clock Signal Code \& Wiring the Development Board}{2}
+\contentsline {section}{\numberline {4}Using the Logic Counter}{4}
+\contentsline {section}{\numberline {5}Creating a Software Counter}{4}

@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Introduction \& Background}{1}
+\contentsline {section}{\numberline {2}USART: Printing to a Terminal}{2}
+\contentsline {section}{\numberline {3}Analogue to Digital Conversion}{3}
+\contentsline {section}{\numberline {4}SPI Communication and Digital Potentiometer}{5}

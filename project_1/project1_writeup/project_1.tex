@@ -1,0 +1,38 @@
+\documentclass[a4paper]{article}
+
+%--------------------------------------------------------------------------
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{inconsolata}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage[most]{tcolorbox}
+
+%--------------------------------------------------------------------------
+\graphicspath{{./fig/}}
+
+%--------------------------------------------------------------------------
+
+\newtcblisting[auto counter]{sexylisting}[2][]{sharp corners, 
+    fonttitle=\bfseries, colframe=gray, listing only, 
+    listing options={basicstyle=\ttfamily,language=Python}, 
+    title=Listing \thetcbcounter: #2, #1}
+
+%--------------------------------------------------------------------------
+\begin{document}
+\title{Udacity: Search and Sample Return Report}
+\author{Shane Reynolds}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+%--------------------------------------------------------------------------
+\section{Introduction \& Background}
+
+\end{document}

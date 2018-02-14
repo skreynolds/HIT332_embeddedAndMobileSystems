@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2
+LIBS:CDU_KiCad_Library
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA1281-BREAKOUT U?
+U 1 1 5A72EC59
+P 6250 4400
+F 0 "U?" H 5100 6400 50  0000 L BNN
+F 1 "ATMEGA1281-BREAKOUT" H 5100 6300 50  0000 L BNN
+F 2 "" H 6250 4400 50  0000 C CIN
+F 3 "" H 6250 4400 50  0000 C CNN
+	1    6250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYPAD-4x3 SW?
+U 1 1 5A72EC9A
+P 8550 1650
+F 0 "SW?" H 8250 2300 50  0000 C CNN
+F 1 "KEYPAD-4x3" H 8400 2200 50  0000 C CNN
+F 2 "" H 8550 1350 50  0000 C CNN
+F 3 "" H 8550 1350 50  0000 C CNN
+	1    8550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LCD-MC21605C6W-SPR LCD?
+U 1 1 5A72ECED
+P 3150 3100
+F 0 "LCD?" H 2450 3700 50  0000 C CNN
+F 1 "LCD-MC21605C6W-SPR" H 2800 3600 50  0000 C CNN
+F 2 "" H 3150 3100 50  0000 C CNN
+F 3 "" H 3150 3100 50  0000 C CNN
+	1    3150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2300 8450 2650
+Wire Wire Line
+	8450 2650 7000 2650
+Wire Wire Line
+	8250 2300 8250 2750
+Wire Wire Line
+	8250 2750 7000 2750
+Wire Wire Line
+	8650 2300 8650 2850
+Wire Wire Line
+	8650 2850 7000 2850
+Wire Wire Line
+	8350 2300 8350 3050
+Wire Wire Line
+	8350 3050 7000 3050
+Wire Wire Line
+	8850 2300 8850 3150
+Wire Wire Line
+	8850 3150 7000 3150
+Wire Wire Line
+	8750 2300 8750 3250
+Wire Wire Line
+	8750 3250 7000 3250
+Wire Wire Line
+	8550 2300 8550 3350
+Wire Wire Line
+	8550 3350 7000 3350
+Wire Wire Line
+	3750 3500 3750 3700
+Wire Wire Line
+	3750 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 3350
+Wire Wire Line
+	4000 3350 4950 3350
+Wire Wire Line
+	3650 3500 3650 3800
+Wire Wire Line
+	3650 3800 4100 3800
+Wire Wire Line
+	4100 3800 4100 3250
+Wire Wire Line
+	4100 3250 4950 3250
+Wire Wire Line
+	3550 3500 3550 3900
+Wire Wire Line
+	3550 3900 4200 3900
+Wire Wire Line
+	4200 3900 4200 3150
+Wire Wire Line
+	4200 3150 4950 3150
+Wire Wire Line
+	3450 3500 3450 4000
+Wire Wire Line
+	3450 4000 4300 4000
+Wire Wire Line
+	4300 4000 4300 3050
+Wire Wire Line
+	4300 3050 4950 3050
+Wire Wire Line
+	3350 3500 3350 4100
+Wire Wire Line
+	3350 4100 4400 4100
+Wire Wire Line
+	4400 4100 4400 2950
+Wire Wire Line
+	4400 2950 4950 2950
+Wire Wire Line
+	3250 3500 3250 4200
+Wire Wire Line
+	3250 4200 4500 4200
+Wire Wire Line
+	4500 4200 4500 2850
+Wire Wire Line
+	4500 2850 4950 2850
+Wire Wire Line
+	3150 3500 3150 4300
+Wire Wire Line
+	3150 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 2750
+Wire Wire Line
+	4600 2750 4950 2750
+Wire Wire Line
+	3050 3500 3050 4400
+Wire Wire Line
+	3050 4400 4700 4400
+Wire Wire Line
+	4700 4400 4700 2650
+Wire Wire Line
+	4700 2650 4950 2650
+Wire Wire Line
+	2950 3500 2950 4500
+Wire Wire Line
+	2950 4500 4800 4500
+Wire Wire Line
+	4800 4500 4800 4450
+Wire Wire Line
+	4800 4450 4950 4450
+Wire Wire Line
+	2750 3500 2750 4700
+Wire Wire Line
+	2750 4700 4850 4700
+Wire Wire Line
+	4850 4700 4850 4550
+Wire Wire Line
+	4850 4550 4950 4550
+$Comp
+L GND #PWR?
+U 1 1 5A72FA84
+P 2850 3700
+F 0 "#PWR?" H 2850 3450 50  0001 C CNN
+F 1 "GND" H 2850 3550 50  0000 C CNN
+F 2 "" H 2850 3700 50  0001 C CNN
+F 3 "" H 2850 3700 50  0001 C CNN
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A72FA9E
+P 2650 3700
+F 0 "#PWR?" H 2650 3450 50  0001 C CNN
+F 1 "GND" H 2650 3550 50  0000 C CNN
+F 2 "" H 2650 3700 50  0001 C CNN
+F 3 "" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3500 2850 3700
+Wire Wire Line
+	2650 3500 2650 3700
+$Comp
+L GND #PWR?
+U 1 1 5A72FB2F
+P 2450 3700
+F 0 "#PWR?" H 2450 3450 50  0001 C CNN
+F 1 "GND" H 2450 3550 50  0000 C CNN
+F 2 "" H 2450 3700 50  0001 C CNN
+F 3 "" H 2450 3700 50  0001 C CNN
+	1    2450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A72FB49
+P 2550 4000
+F 0 "#PWR?" H 2550 3850 50  0001 C CNN
+F 1 "+5V" H 2550 4140 50  0000 C CNN
+F 2 "" H 2550 4000 50  0001 C CNN
+F 3 "" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2550 3500 2550 4000
+Wire Wire Line
+	2450 3500 2450 3700
+$EndSCHEMATC
